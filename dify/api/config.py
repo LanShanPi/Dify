@@ -13,7 +13,7 @@ DEFAULTS = {
     'DB_DATABASE': 'dify',
     'DB_CHARSET': '',
     'REDIS_HOST': 'localhost',
-    'REDIS_PORT': '6378',
+    'REDIS_PORT': '6379',
     'REDIS_DB': '0',
     'REDIS_USE_SSL': 'False',
     'OAUTH_REDIRECT_PATH': '/console/api/oauth/authorize',
