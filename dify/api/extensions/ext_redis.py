@@ -13,7 +13,7 @@ def init_app(app):
         'host': app.config.get('REDIS_HOST', 'localhost'),
         'port': app.config.get('REDIS_PORT', 6379),
         'username': app.config.get('REDIS_USERNAME', None),
-        'password': app.config.get('REDIS_PASSWORD', 123456),
+        'password': app.config.get('REDIS_PASSWORD', None),
         'db': app.config.get('REDIS_DB', 0),
         'encoding': 'utf-8',
         'encoding_errors': 'strict',
