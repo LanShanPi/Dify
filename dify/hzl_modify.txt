@@ -1,0 +1,5 @@
+关于redis服务的端口在以下文件中作出修改,有6379改为9090：
+/home/fm001/hzl/project/dify/api/config.py
+/home/fm001/hzl/project/dify/api/.env 
+/home/fm001/hzl/project/dify/api/.env.example
+/home/fm001/hzl/project/dify/docker/docker-compose.middleware.yaml
